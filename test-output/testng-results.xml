@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-27T21:00:04 IST" name="Default suite" finished-at="2021-08-27T21:00:22 IST" duration-ms="18216">
+    <groups>
+      <group name="smoketest">
+        <method signature="TC_CreateByProductLinkTest.Createproductbyproductlink()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" name="Createproductbyproductlink" class="com.vtiger.products.assertion.java.TC_CreateByProductLinkTest"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test started-at="2021-08-27T21:00:04 IST" name="Default test" finished-at="2021-08-27T21:00:22 IST" duration-ms="18216">
+      <class name="com.vtiger.products.assertion.java.TC_CreateByProductLinkTest">
+        <test-method is-config="true" signature="ConfigureBS()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:04 IST" name="ConfigureBS" finished-at="2021-08-27T21:00:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureBS -->
+        <test-method is-config="true" signature="ConfigureBC()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:04 IST" name="ConfigureBC" finished-at="2021-08-27T21:00:06 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureBC -->
+        <test-method is-config="true" signature="ConfigureBM()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:06 IST" name="ConfigureBM" finished-at="2021-08-27T21:00:09 IST" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureBM -->
+        <test-method signature="Createproductbyproductlink()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:09 IST" name="Createproductbyproductlink" finished-at="2021-08-27T21:00:20 IST" duration-ms="10779" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.products.assertion.java.TC_CreateByProductLinkTest.Createproductbyproductlink(TC_CreateByProductLinkTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createproductbyproductlink -->
+        <test-method is-config="true" signature="ConfigureAM()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:21 IST" name="ConfigureAM" finished-at="2021-08-27T21:00:22 IST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAM -->
+        <test-method is-config="true" signature="ConfigureAC()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:22 IST" name="ConfigureAC" finished-at="2021-08-27T21:00:22 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAC -->
+        <test-method is-config="true" signature="ConfigureAS()[pri:0, instance:com.vtiger.products.assertion.java.TC_CreateByProductLinkTest@7722c3c3]" started-at="2021-08-27T21:00:22 IST" name="ConfigureAS" finished-at="2021-08-27T21:00:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAS -->
+      </class> <!-- com.vtiger.products.assertion.java.TC_CreateByProductLinkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
