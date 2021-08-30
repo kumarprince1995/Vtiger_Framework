@@ -71,7 +71,7 @@
    			 <version>2.19.1</version>
    			 <configuration>
         		<suiteXmlFiles>
-            		<suiteXmlFile>testng_git.xml</suiteXmlFile>
+            		<suiteXmlFile>fullregression.xml</suiteXmlFile>
         		</suiteXmlFiles>
     		</configuration>
 		  </plugin>
