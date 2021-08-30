@@ -125,7 +125,7 @@ public class ProductsPage extends WebDriverUtility{
 		for(int i=0;i<pageCount;i++) {
 			for(int j=0;j<productnotext.size();j++) {
 				list.add(productnotext.get(j).getText());
-				System.out.println(productnotext.get(j).getText());
+				//System.out.println(productnotext.get(j).getText());
 			}
 			WebDriverWait wait=new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.invisibilityOf(statusBar));
